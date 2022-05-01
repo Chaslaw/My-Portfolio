@@ -10,7 +10,7 @@ const Hamburger = () => {
     
     return ( 
     
-    <div className='hamburger' onClick={toggleMenu}><GiHamburgerMenu /></div> 
+    <div onClick={toggleMenu}><GiHamburgerMenu className='hamburger'/></div> 
     
     
     );
