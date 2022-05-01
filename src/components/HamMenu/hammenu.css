@@ -1,0 +1,41 @@
+.menu__small {
+    width: 93%;
+    height: 261px;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    display: none;
+    top: -3rem;
+    left: -31rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transition: 0.4s;
+}
+
+.show_case {
+    display: inline-block;
+    position: absolute;
+    left: -2rem;
+   
+}
+
+
+.menu__small > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__small > ul > li {
+    border-bottom: 2px solid;
+}
+
+@media screen and (max-width: 592px){
+    .menu__small{
+        display: inline-block;
+    }
+}
+
+
+

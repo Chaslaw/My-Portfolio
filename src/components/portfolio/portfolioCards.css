@@ -1,0 +1,52 @@
+.card-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card {
+  width: 80%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--color-light);
+}
+
+.card-image {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.content-card > p {
+  color: var(--color-bg-variant);
+}
+
+.buttons-demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  padding: 0.5rem;
+  width: 90%;
+  gap: 2rem;
+}
+
+.buttons-demo > button {
+ width: 89%;
+ font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1200px){
+  .card-row {
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+  }
+  
+}
