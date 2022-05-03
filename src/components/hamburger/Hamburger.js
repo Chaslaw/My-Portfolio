@@ -1,4 +1,4 @@
-import {GiHamburgerMenu} from 'react-icons/gi'
+import {AiOutlineMenu} from 'react-icons/ai'
 import './hamburger.css'
 
 const Hamburger = () => {
@@ -10,7 +10,7 @@ const Hamburger = () => {
     
     return ( 
     
-    <div onClick={toggleMenu}><GiHamburgerMenu className='hamburger'/></div> 
+    <div className='hamburger' onClick={toggleMenu}><AiOutlineMenu/></div> 
     
     
     );
